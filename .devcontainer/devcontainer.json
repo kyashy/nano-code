@@ -12,7 +12,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "biomejs.biome"
+        "biomejs.biome",
+        "oven.bun-vscode"
       ]
     }
   },
