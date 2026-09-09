@@ -13,7 +13,8 @@
     "vscode": {
       "extensions": [
         "biomejs.biome",
-        "oven.bun-vscode"
+        "oven.bun-vscode",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
   },
