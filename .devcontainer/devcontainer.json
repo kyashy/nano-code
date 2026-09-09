@@ -9,5 +9,12 @@
   "remoteEnv": {
     "TZ": "Asia/Tokyo"
   },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "biomejs.biome"
+      ]
+    }
+  },
   "postCreateCommand": "if [ ! -f package.json ]; then bun init -y; fi && bun install || true"
 }
