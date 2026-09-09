@@ -1,0 +1,13 @@
+{
+  "name": "nano-code-devcontainer",
+  "build": { "dockerfile": "Dockerfile" },
+  "workspaceFolder": "/home/ubuntu/nano-code",
+  "remoteUser": "ubuntu",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/home/ubuntu/nano-code,type=bind"
+  ],
+  "remoteEnv": {
+    "TZ": "Asia/Tokyo"
+  },
+  "postCreateCommand": "if [ ! -f package.json ]; then bun init -y; fi && bun install || true"
+}
