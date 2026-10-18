@@ -9,5 +9,8 @@
   },
   "peerDependencies": {
     "typescript": "^7"
+  },
+  "dependencies": {
+    "@google/genai": "^2.30.0"
   }
 }
